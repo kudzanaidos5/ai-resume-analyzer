@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link } from "react-router";
 
 const Navbar = () => {
   return (
@@ -9,7 +9,7 @@ const Navbar = () => {
       </Link>
 
       <Link to="/upload" className="primary-button w-fit">
-        <p className="text-2xl font-bold text-gradient">RESUMIND</p>
+        Upload Resume
       </Link>
     </nav>
   );
